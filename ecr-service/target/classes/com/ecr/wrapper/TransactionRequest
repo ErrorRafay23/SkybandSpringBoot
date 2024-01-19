@@ -1,0 +1,21 @@
+public class TransactionRequest {
+
+    private PaymentRequest paymentRequest;
+    private TCPIPCOMData tcpipcomData;
+
+    public PaymentRequest getPaymentRequest() {
+        return paymentRequest;
+    }
+
+    public void setPaymentRequest(PaymentRequest paymentRequest) {
+        this.paymentRequest = paymentRequest;
+    }
+
+    public TCPIPCOMData getTcpipcomData() {
+        return tcpipcomData;
+    }
+
+    public void setTcpipcomData(TCPIPCOMData tcpipcomData) {
+        this.tcpipcomData = tcpipcomData;
+    }
+}

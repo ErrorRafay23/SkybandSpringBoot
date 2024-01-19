@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<property name="logDir" value="${user.dir}/logs"/>
+class="ch.qos.logback.core.status.OnConsoleStatusListener"/>
+    <!-- Appenders -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${logDir}/application.log</file>
+	   <append>true</append>
+        <!--encoder-->
+            <!--pattern>%date %level [%thread] %logger{10} [%file:%line] - %msg%n</pattern-->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </layout>
+        <!--/encoder-->
+    </appender>
+<appender name="EVENT_VIEWER" class="ch.qos.logback.core.ConsoleAppender">
+    <!--encoder class="net.logstash.logback.encoder.LogstashEncoder"/-->
+    <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </layout>
+</appender>
+    <!-- You can add more appenders (e.g., ConsoleAppender, RollingFileAppender) as needed -->
+
+    <!-- Loggers -->
+    <logger name="com.ecr.controller" level="trace"/>
+
+    <!-- Root logger -->
+    <root level="info">
+	   <appender-ref ref="EVENT_VIEWER"/>
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>

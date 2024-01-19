@@ -1,0 +1,839 @@
+2023-11-22 22:55:13,158 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:305] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ecr.ECRBootApplicationTests], using SpringBootContextLoader
+2023-11-22 22:55:13,168 INFO [main] o.s.t.c.s.AbstractContextLoader [AbstractContextLoader.java:264] - Could not detect default resource locations for test class [com.ecr.ECRBootApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-11-22 22:55:13,169 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils [AnnotationConfigContextLoaderUtils.java:83] - Could not detect default configuration classes for test class [com.ecr.ECRBootApplicationTests]: ECRBootApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-22 22:55:13,250 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [SpringBootTestContextBootstrapper.java:238] - Found @SpringBootConfiguration com.ecr.ECRBootApplication for test class com.ecr.ECRBootApplicationTests
+2023-11-22 22:55:13,306 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:245] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-11-22 22:55:13,315 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:174] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3dd69f5a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3aa3193a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1ee4730, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@59a67c3a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5003041b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@724bade8, org.springframework.test.context.event.EventPublishingTestExecutionListener@16fb356, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6bc248ed, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@23a9ba52, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@ca27722, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@70ab80e3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@9573b3b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@67427b69]
+2023-11-22 22:55:13,559 INFO [main] c.e.ECRBootApplicationTests [StartupInfoLogger.java:55] - Starting ECRBootApplicationTests using Java 21.0.1 on Nami-IT-207 with PID 14460 (started by muhammed.shameel in D:\ECR_Integrations\SpringBootSolution - Copy - Copy\SkyBand_API\SkyBand_API\skyBand_API_sourceCode\ecr-service)
+2023-11-22 22:55:13,561 INFO [main] c.e.ECRBootApplicationTests [SpringApplication.java:631] - No active profile set, falling back to 1 default profile: "default"
+2023-11-22 22:55:14,868 INFO [main] c.e.ECRBootApplicationTests [StartupInfoLogger.java:61] - Started ECRBootApplicationTests in 1.517 seconds (JVM running for 2.617)
+2023-11-22 23:17:56,185 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:305] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ecr.ECRBootApplicationTests], using SpringBootContextLoader
+2023-11-22 23:17:56,199 INFO [main] o.s.t.c.s.AbstractContextLoader [AbstractContextLoader.java:264] - Could not detect default resource locations for test class [com.ecr.ECRBootApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-11-22 23:17:56,200 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils [AnnotationConfigContextLoaderUtils.java:83] - Could not detect default configuration classes for test class [com.ecr.ECRBootApplicationTests]: ECRBootApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-22 23:17:56,318 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [SpringBootTestContextBootstrapper.java:238] - Found @SpringBootConfiguration com.ecr.ECRBootApplication for test class com.ecr.ECRBootApplicationTests
+2023-11-22 23:17:56,399 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:245] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-11-22 23:17:56,412 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:174] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3dd69f5a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3aa3193a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1ee4730, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@59a67c3a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5003041b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@724bade8, org.springframework.test.context.event.EventPublishingTestExecutionListener@16fb356, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6bc248ed, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@23a9ba52, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@ca27722, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@70ab80e3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@9573b3b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@67427b69]
+2023-11-22 23:17:56,673 INFO [main] c.e.ECRBootApplicationTests [StartupInfoLogger.java:55] - Starting ECRBootApplicationTests using Java 21.0.1 on Nami-IT-207 with PID 30196 (started by muhammed.shameel in D:\ECR_Integrations\SpringBootSolution - Copy - Copy\SkyBand_API\SkyBand_API\skyBand_API_sourceCode\ecr-service)
+2023-11-22 23:17:56,675 INFO [main] c.e.ECRBootApplicationTests [SpringApplication.java:631] - No active profile set, falling back to 1 default profile: "default"
+2023-11-22 23:17:57,904 INFO [main] c.e.ECRBootApplicationTests [StartupInfoLogger.java:61] - Started ECRBootApplicationTests in 1.454 seconds (JVM running for 3.213)
+13:05:38.427 [restartedMain] INFO  com.ecr.ECRBootApplication - Starting ECRBootApplication using Java 1.8.0_202 on Sajjad with PID 17628 (D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service\target\classes started by HP in D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service)
+13:05:38.542 [restartedMain] INFO  com.ecr.ECRBootApplication - No active profile set, falling back to 1 default profile: "default"
+13:05:38.662 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:05:38.663 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:05:40.992 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+13:05:41.007 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+13:05:41.008 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:05:41.009 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+13:05:41.121 [restartedMain] WARN  o.a.t.util.scan.StandardJarScanner - Failed to scan [file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/] from classloader hierarchy
+java.io.IOException: java.net.URISyntaxException: Illegal character in path at index 14: file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:415)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:318)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:270)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:233)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5211)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:479)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ecr.ECRBootApplication.main(ECRBootApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 14: file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URL.toURI(URL.java:946)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:392)
+	... 48 common frames omitted
+13:05:41.332 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13:05:41.342 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:05:41.343 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2678 ms
+13:05:42.903 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:05:42.913 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+13:05:42.964 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+13:05:43.035 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+13:05:43.064 [restartedMain] INFO  com.ecr.ECRBootApplication - Started ECRBootApplication in 5.158 seconds (JVM running for 6.011)
+13:05:45.735 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:05:45.736 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:05:45.740 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+13:05:46.442 [http-nio-9099-exec-1] INFO  com.ecr.controller.MainController - connectTCPIP | Entering
+13:05:46.449 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:05:46.452 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:05:46.453 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:05:46.458 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:05:46.459 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:05:46.459 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:05:46.460 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:05:46.461 [http-nio-9099-exec-1] INFO  com.ecr.controller.MainController - 172.18.192.1
+13:05:46.463 [http-nio-9099-exec-1] INFO  com.ecr.controller.MainController - 8888
+13:05:46.464 [http-nio-9099-exec-1] INFO  com.ecr.service.PaymentService - Coreman com.skyband.impl.ECRImpl@3d0bb4e0
+13:05:46.465 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:05:46.466 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:05:46.466 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+13:05:46.466 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+13:05:46.466 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:05:46.467 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:05:46.468 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:05:46.468 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:05:46.468 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:05:46.470 [http-nio-9099-exec-1] INFO  com.skyband.skybandecr.CLibraryLoad - D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service
+13:05:46.470 [http-nio-9099-exec-1] INFO  com.skyband.skybandecr.CLibraryLoad - DLL file loaded:
+13:05:46.594 [http-nio-9099-exec-1] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Entering
+13:05:46.595 [http-nio-9099-exec-1] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Exiting
+13:05:46.595 [http-nio-9099-exec-1] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Entering
+13:05:46.596 [http-nio-9099-exec-1] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Exiting üA0ü130623194300ü00000000ü120üE
+13:05:46.597 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - bytePackData in ECRImpl is [B@33bc64a5
+13:05:46.597 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:05:46.597 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:05:46.598 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:05:46.598 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:05:46.598 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Entering
+13:05:53.839 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - Response is [B@182d475b
+13:05:53.839 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - SResponse
+		;A0;1004;8184000200000077;
+	
+13:05:53.839 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - SocketResponse
+		;A0;1004;8184000200000077;
+	
+13:05:53.839 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Exiting
+13:05:53.839 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - Termninal Response is
+		;A0;1004;8184000200000077;
+	
+13:05:53.839 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - terminalresponsetry in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+13:05:53.839 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - Terminal Response in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+13:05:53.839 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - PackData in ECRImpl is [B@33bc64a5
+13:05:53.839 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - A0
+		;17;1004;8184000200000077;
+	
+13:05:53.839 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - TerminalResponse:
+		;17;1004;8184000200000077;
+	
+13:06:05.333 [http-nio-9099-exec-3] INFO  com.ecr.controller.MainController - connectTCPIP | Entering
+13:06:05.333 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:06:05.333 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:06:05.333 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+13:06:05.333 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+13:06:05.333 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:06:05.333 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:06:05.341 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:06:05.341 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:06:05.342 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:06:05.342 [http-nio-9099-exec-3] INFO  com.ecr.controller.MainController - 172.18.192.1
+13:06:05.343 [http-nio-9099-exec-3] INFO  com.ecr.controller.MainController - 8888
+13:06:05.343 [http-nio-9099-exec-3] INFO  com.ecr.service.PaymentService - Coreman com.skyband.impl.ECRImpl@2e4fd4c
+13:06:05.343 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:06:05.343 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:06:05.343 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+13:06:05.343 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+13:06:05.343 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:06:05.343 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:06:05.343 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:06:05.343 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:06:05.343 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:06:05.343 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Entering
+13:06:05.343 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Exiting
+13:06:05.343 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Entering
+13:06:05.356 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Exiting üA0ü130623194300ü00000000ü120üE
+13:06:05.357 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - bytePackData in ECRImpl is [B@43d9f777
+13:06:05.358 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:06:05.358 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:06:05.358 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:06:05.358 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:06:05.358 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Entering
+13:06:07.863 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - Response is [B@57fb9b66
+13:06:07.863 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - SResponse
+		;A0;1004;8184000200000077;
+	
+13:06:07.863 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - SocketResponse
+		;A0;1004;8184000200000077;
+	
+13:06:07.863 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Exiting
+13:06:07.863 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - Termninal Response is
+		;A0;1004;8184000200000077;
+	
+13:06:07.863 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - terminalresponsetry in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+13:06:07.863 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - Terminal Response in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+13:06:07.879 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - PackData in ECRImpl is [B@43d9f777
+13:06:07.879 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - A0
+		;17;1004;8184000200000077;
+	
+13:06:07.881 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - TerminalResponse:
+		;17;1004;8184000200000077;
+	
+13:07:32.324 [http-nio-9099-exec-4] INFO  com.ecr.controller.MainController - connectTCPIP | Entering
+13:07:32.325 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:07:32.326 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:07:32.326 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+13:07:32.327 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+13:07:32.328 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:07:34.391 [http-nio-9099-exec-4] INFO  com.ecr.controller.MainController - connectTCPIP :: ExceptionConnection refused: connect
+13:07:50.105 [http-nio-9099-exec-9] INFO  com.ecr.controller.MainController - connectTCPIP | Entering
+13:07:50.106 [http-nio-9099-exec-9] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:07:50.106 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:07:50.107 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+13:07:50.107 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+13:07:50.107 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:07:50.108 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:07:50.109 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:07:50.109 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:07:50.109 [http-nio-9099-exec-9] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:07:50.110 [http-nio-9099-exec-9] INFO  com.ecr.controller.MainController - 172.18.192.1
+13:07:50.110 [http-nio-9099-exec-9] INFO  com.ecr.controller.MainController - 8888
+13:07:50.110 [http-nio-9099-exec-9] INFO  com.ecr.service.PaymentService - Coreman com.skyband.impl.ECRImpl@77e88d5d
+13:07:50.111 [http-nio-9099-exec-9] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:07:50.111 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:07:50.111 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+13:07:50.112 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+13:07:50.112 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:07:50.113 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:07:50.114 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:07:50.114 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:07:50.114 [http-nio-9099-exec-9] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:07:50.114 [http-nio-9099-exec-9] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Entering
+13:07:50.115 [http-nio-9099-exec-9] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Exiting
+13:07:50.116 [http-nio-9099-exec-9] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Entering
+13:07:50.116 [http-nio-9099-exec-9] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Exiting üA0ü130623194300ü00000000ü120üE
+13:07:50.117 [http-nio-9099-exec-9] INFO  com.skyband.impl.ECRImpl - bytePackData in ECRImpl is [B@36d58766
+13:07:50.117 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:07:50.117 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:07:50.118 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:07:50.118 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:07:50.118 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Entering
+13:07:51.269 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - Response is [B@3418e298
+13:07:51.270 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - SResponse
+		;A0;1004;8184000200000077;
+	
+13:07:51.270 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - SocketResponse
+		;A0;1004;8184000200000077;
+	
+13:07:51.271 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Exiting
+13:07:51.271 [http-nio-9099-exec-9] INFO  c.s.skybandecr.ConnectionManager - Termninal Response is
+		;A0;1004;8184000200000077;
+	
+13:07:51.272 [http-nio-9099-exec-9] INFO  com.skyband.impl.ECRImpl - terminalresponsetry in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+13:07:51.272 [http-nio-9099-exec-9] INFO  com.skyband.impl.ECRImpl - Terminal Response in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+13:07:51.273 [http-nio-9099-exec-9] INFO  com.skyband.impl.ECRImpl - PackData in ECRImpl is [B@36d58766
+13:07:51.273 [http-nio-9099-exec-9] INFO  com.skyband.impl.ECRImpl - A0
+		;17;1004;8184000200000077;
+	
+13:07:51.274 [http-nio-9099-exec-9] INFO  com.skyband.impl.ECRImpl - TerminalResponse:
+		;17;1004;8184000200000077;
+	
+13:13:18.697 [restartedMain] INFO  com.ecr.ECRBootApplication - Starting ECRBootApplication using Java 1.8.0_202 on Sajjad with PID 14780 (D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service\target\classes started by HP in D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service)
+13:13:18.701 [restartedMain] INFO  com.ecr.ECRBootApplication - No active profile set, falling back to 1 default profile: "default"
+13:13:18.784 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:13:18.785 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:13:20.607 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+13:13:20.619 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+13:13:20.620 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:13:20.620 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+13:13:20.723 [restartedMain] WARN  o.a.t.util.scan.StandardJarScanner - Failed to scan [file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/] from classloader hierarchy
+java.io.IOException: java.net.URISyntaxException: Illegal character in path at index 14: file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:415)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:318)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:270)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:233)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5211)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:479)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ecr.ECRBootApplication.main(ECRBootApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 14: file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URL.toURI(URL.java:946)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:392)
+	... 48 common frames omitted
+13:13:20.891 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13:13:20.936 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:13:20.936 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2150 ms
+13:13:21.931 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:13:21.942 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+13:13:22.003 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+13:13:22.055 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+13:13:22.075 [restartedMain] INFO  com.ecr.ECRBootApplication - Started ECRBootApplication in 3.875 seconds (JVM running for 4.671)
+13:13:22.413 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:13:22.414 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:13:22.416 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+13:13:25.273 [http-nio-9099-exec-3] INFO  com.ecr.controller.MainController - connectTCPIP | Entering
+13:13:25.275 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:13:25.275 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:13:25.275 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:13:25.275 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:13:25.275 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:13:25.275 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:13:25.275 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:13:25.284 [http-nio-9099-exec-3] INFO  com.ecr.controller.MainController - 172.18.192.1
+13:13:25.285 [http-nio-9099-exec-3] INFO  com.ecr.controller.MainController - 8888
+13:13:25.285 [http-nio-9099-exec-3] INFO  com.ecr.service.PaymentService - Coreman com.skyband.impl.ECRImpl@348055e7
+13:13:25.289 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:13:25.291 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:13:25.292 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+13:13:25.292 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+13:13:25.292 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:13:25.292 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:13:25.292 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:13:25.292 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:13:25.292 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:13:25.292 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service
+13:13:25.292 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - DLL file loaded: EcrJava64bit.dll
+13:13:25.307 [http-nio-9099-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.UnsatisfiedLinkError: Can't load library: D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service/EcrJava64bit.dll] with root cause
+java.lang.UnsatisfiedLinkError: Can't load library: D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service/EcrJava64bit.dll
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1827)
+	at java.lang.Runtime.load0(Runtime.java:809)
+	at java.lang.System.load(System.java:1086)
+	at com.skyband.skybandecr.CLibraryLoad.<clinit>(CLibraryLoad.java:42)
+	at com.skyband.impl.ECRImpl.doTCPIPTransaction(ECRImpl.java:118)
+	at com.ecr.service.PaymentService.performTransactionTCPIP(PaymentService.java:197)
+	at com.ecr.controller.MainController.performTransactionTCPIP(MainController.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+13:14:29.349 [restartedMain] INFO  com.ecr.ECRBootApplication - Starting ECRBootApplication using Java 1.8.0_202 on Sajjad with PID 8964 (D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service\target\classes started by HP in D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service)
+13:14:29.364 [restartedMain] INFO  com.ecr.ECRBootApplication - No active profile set, falling back to 1 default profile: "default"
+13:14:29.443 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:14:29.444 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:14:31.197 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+13:14:31.209 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+13:14:31.210 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:14:31.210 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+13:14:31.306 [restartedMain] WARN  o.a.t.util.scan.StandardJarScanner - Failed to scan [file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/] from classloader hierarchy
+java.io.IOException: java.net.URISyntaxException: Illegal character in path at index 14: file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:415)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:318)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:270)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:233)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5211)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:479)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ecr.ECRBootApplication.main(ECRBootApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 14: file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URL.toURI(URL.java:946)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:392)
+	... 48 common frames omitted
+13:14:31.474 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13:14:31.482 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:14:31.482 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2038 ms
+13:14:32.639 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:14:32.649 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+13:14:32.692 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+13:14:32.744 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+13:14:32.771 [restartedMain] INFO  com.ecr.ECRBootApplication - Started ECRBootApplication in 3.901 seconds (JVM running for 4.644)
+13:14:32.972 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:14:32.973 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:14:32.974 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+13:14:46.415 [http-nio-9099-exec-1] INFO  com.ecr.controller.MainController - connectTCPIP | Entering
+13:14:46.418 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:14:46.420 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:14:46.421 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:14:46.425 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:14:46.425 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:14:46.425 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:14:46.426 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:14:46.426 [http-nio-9099-exec-1] INFO  com.ecr.controller.MainController - 172.18.192.1
+13:14:46.427 [http-nio-9099-exec-1] INFO  com.ecr.controller.MainController - 8888
+13:14:46.428 [http-nio-9099-exec-1] INFO  com.ecr.service.PaymentService - Coreman com.skyband.impl.ECRImpl@71cb2d00
+13:14:46.429 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:14:46.430 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:14:46.431 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+13:14:46.431 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+13:14:46.431 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:14:48.478 [http-nio-9099-exec-1] ERROR com.ecr.service.PaymentService - Unable to process the request
+com.skyband.exception.MyException: 3
+	at com.skyband.impl.ECRImpl.doTCPIPTransaction(ECRImpl.java:116)
+	at com.ecr.service.PaymentService.performTransactionTCPIP(PaymentService.java:197)
+	at com.ecr.controller.MainController.performTransactionTCPIP(MainController.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+13:14:53.075 [http-nio-9099-exec-4] INFO  com.ecr.controller.MainController - connectTCPIP | Entering
+13:14:53.075 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:14:53.075 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:14:53.075 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+13:14:53.075 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+13:14:53.075 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:14:53.075 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:14:53.075 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:14:53.075 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:14:53.075 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:14:53.075 [http-nio-9099-exec-4] INFO  com.ecr.controller.MainController - 172.18.192.1
+13:14:53.075 [http-nio-9099-exec-4] INFO  com.ecr.controller.MainController - 8888
+13:14:53.075 [http-nio-9099-exec-4] INFO  com.ecr.service.PaymentService - Coreman com.skyband.impl.ECRImpl@322e438e
+13:14:53.075 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+13:14:53.075 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:14:53.090 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+13:14:53.090 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+13:14:53.090 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+13:14:53.090 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+13:14:53.090 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+13:14:53.090 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:14:53.090 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+13:14:53.090 [http-nio-9099-exec-4] INFO  com.skyband.skybandecr.CLibraryLoad - D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service
+13:14:53.090 [http-nio-9099-exec-4] INFO  com.skyband.skybandecr.CLibraryLoad - DLL file loaded: EcrJava64bit.dll
+13:14:53.118 [http-nio-9099-exec-4] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Entering
+13:14:53.118 [http-nio-9099-exec-4] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Exiting
+13:14:53.118 [http-nio-9099-exec-4] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Entering
+13:14:53.118 [http-nio-9099-exec-4] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Exiting üA0ü130623194300ü00000000ü120üE
+13:14:53.118 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - bytePackData in ECRImpl is [B@422a5ef0
+13:14:53.118 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:14:53.118 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:14:53.118 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+13:14:53.118 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+13:14:53.118 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Entering
+13:14:55.805 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - Response is [B@7a8b06ff
+13:14:55.805 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - SResponse
+		;A0;1004;8184000200000077;
+	
+13:14:55.813 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - SocketResponse
+		;A0;1004;8184000200000077;
+	
+13:14:55.813 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Exiting
+13:14:55.813 [http-nio-9099-exec-4] INFO  c.s.skybandecr.ConnectionManager - Termninal Response is
+		;A0;1004;8184000200000077;
+	
+13:14:55.813 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - terminalresponsetry in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+13:14:55.813 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - Terminal Response in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+13:14:55.813 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - PackData in ECRImpl is [B@422a5ef0
+13:14:55.813 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - A0
+		;17;1004;8184000200000077;
+	
+13:14:55.813 [http-nio-9099-exec-4] INFO  com.skyband.impl.ECRImpl - TerminalResponse:
+		;17;1004;8184000200000077;
+	
+00:32:32.299 [restartedMain] INFO  com.ecr.ECRBootApplication - Starting ECRBootApplication using Java 1.8.0_202 on Sajjad with PID 24780 (D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service\target\classes started by HP in D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service)
+00:32:32.404 [restartedMain] INFO  com.ecr.ECRBootApplication - No active profile set, falling back to 1 default profile: "default"
+00:32:32.488 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+00:32:32.489 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+00:32:35.507 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+00:32:35.523 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+00:32:35.524 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:32:35.525 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+00:32:35.664 [restartedMain] WARN  o.a.t.util.scan.StandardJarScanner - Failed to scan [file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/] from classloader hierarchy
+java.io.IOException: java.net.URISyntaxException: Illegal character in path at index 14: file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:415)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:318)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:270)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:233)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5211)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:479)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ecr.ECRBootApplication.main(ECRBootApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 14: file:/D:/Rafay Space/Compressed/SkyBand-API-main/ecr-service/target/classes/
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URL.toURI(URL.java:946)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:392)
+	... 48 common frames omitted
+00:32:35.926 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:32:35.948 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:32:35.948 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3458 ms
+00:32:37.173 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+00:32:37.187 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+00:32:37.251 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+00:32:37.319 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+00:32:37.350 [restartedMain] INFO  com.ecr.ECRBootApplication - Started ECRBootApplication in 5.503 seconds (JVM running for 6.767)
+00:32:51.800 [http-nio-9099-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:32:51.800 [http-nio-9099-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:32:51.800 [http-nio-9099-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+00:32:52.015 [http-nio-9099-exec-3] INFO  com.ecr.controller.MainController - connectTCPIP | Entering
+00:32:52.033 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+00:32:52.049 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+00:32:52.049 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+00:32:52.060 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+00:32:52.061 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+00:32:52.061 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+00:32:52.062 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+00:32:52.062 [http-nio-9099-exec-3] INFO  com.ecr.controller.MainController - 192.168.0.111
+00:32:52.065 [http-nio-9099-exec-3] INFO  com.ecr.controller.MainController - 8888
+00:32:52.066 [http-nio-9099-exec-3] INFO  com.ecr.service.PaymentService - Coreman com.skyband.impl.ECRImpl@1e9bf45
+00:32:52.067 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+00:32:52.067 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+00:32:52.067 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+00:32:52.067 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+00:32:52.067 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+00:32:52.067 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+00:32:52.067 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+00:32:52.067 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+00:32:52.067 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+00:32:52.067 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - D:\Rafay Space\Compressed\SkyBand-API-main\ecr-service
+00:32:52.067 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - DLL file loaded: EcrJava64bit.dll
+00:32:52.099 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Entering
+00:32:52.099 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Exiting
+00:32:52.099 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Entering
+00:32:52.099 [http-nio-9099-exec-3] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Exiting üA0ü130623194300ü00000000ü120üE
+00:32:52.099 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - bytePackData in ECRImpl is [B@a1d834a
+00:32:52.099 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+00:32:52.099 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+00:32:52.113 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+00:32:52.113 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+00:32:52.114 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Entering
+00:33:03.171 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - Response is [B@44611e84
+00:33:03.171 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - SResponse
+		;A0;1004;8184000200000077;
+	
+00:33:03.172 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - SocketResponse
+		;A0;1004;8184000200000077;
+	
+00:33:03.173 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Exiting
+00:33:03.173 [http-nio-9099-exec-3] INFO  c.s.skybandecr.ConnectionManager - Termninal Response is
+		;A0;1004;8184000200000077;
+	
+00:33:03.174 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - terminalresponsetry in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+00:33:03.175 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - Terminal Response in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+00:33:03.176 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - PackData in ECRImpl is [B@a1d834a
+00:33:03.176 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - A0
+		;17;1004;8184000200000077;
+	
+00:33:03.177 [http-nio-9099-exec-3] INFO  com.skyband.impl.ECRImpl - TerminalResponse:
+		;17;1004;8184000200000077;
+	
+00:33:27.584 [http-nio-9099-exec-1] INFO  com.ecr.controller.MainController - connectTCPIP | Entering
+00:33:27.585 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+00:33:27.586 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+00:33:27.586 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+00:33:27.587 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+00:33:27.587 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+00:33:27.589 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+00:33:27.589 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+00:33:27.589 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+00:33:27.590 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+00:33:27.591 [http-nio-9099-exec-1] INFO  com.ecr.controller.MainController - 192.168.0.111
+00:33:27.591 [http-nio-9099-exec-1] INFO  com.ecr.controller.MainController - 8888
+00:33:27.591 [http-nio-9099-exec-1] INFO  com.ecr.service.PaymentService - Coreman com.skyband.impl.ECRImpl@74a4f646
+00:33:27.592 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Entering
+00:33:27.593 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+00:33:27.593 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Entering
+00:33:27.594 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Cleanup | Exiting
+00:33:27.594 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Entering
+00:33:27.596 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | CreateConnection | Exiting
+00:33:27.596 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Exiting
+00:33:27.597 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+00:33:27.597 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - ECRImpl | DoTCPIPConnection | Exiting1
+00:33:27.598 [http-nio-9099-exec-1] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Entering
+00:33:27.598 [http-nio-9099-exec-1] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | Clibraryload | Exiting
+00:33:27.599 [http-nio-9099-exec-1] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Entering
+00:33:27.599 [http-nio-9099-exec-1] INFO  com.skyband.skybandecr.CLibraryLoad - CLibraryLoad | GetPackData | Exiting üA0ü130623194300ü00000000ü120üE
+00:33:27.599 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - bytePackData in ECRImpl is [B@3599fc7d
+00:33:27.600 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+00:33:27.600 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+00:33:27.600 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Isconnected | Entering
+00:33:27.601 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | Instance | Entering
+00:33:27.601 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Entering
+00:33:32.088 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - Response is [B@57a3e573
+00:33:32.089 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - SResponse
+		;A0;1004;8184000200000077;
+	
+00:33:32.090 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - SocketResponse
+		;A0;1004;8184000200000077;
+	
+00:33:32.091 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - ConnectionManager | SedAndRecv | Exiting
+00:33:32.096 [http-nio-9099-exec-1] INFO  c.s.skybandecr.ConnectionManager - Termninal Response is
+		;A0;1004;8184000200000077;
+	
+00:33:32.097 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - terminalresponsetry in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+00:33:32.098 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - Terminal Response in ECRImpl is 
+		;A0;1004;8184000200000077;
+	
+00:33:32.098 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - PackData in ECRImpl is [B@3599fc7d
+00:33:32.099 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - A0
+		;17;1004;8184000200000077;
+	
+00:33:32.100 [http-nio-9099-exec-1] INFO  com.skyband.impl.ECRImpl - TerminalResponse:
+		;17;1004;8184000200000077;
+	
